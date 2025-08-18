@@ -1,0 +1,33 @@
+{
+  "name": "data-contract",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "validate-contract": "npm run build && node dist/src/validate-contract.js",
+    "generate-contract": "npm run build && node dist/src/generate-contract.js",
+    "docgen": "tsx scripts/docgen.ts",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.12.12",
+    "eslint": "^9.32.0",
+    "eslint-config-custom": "file:../eslint-config",
+    "typescript": "^5.4.5",
+    "typescript-config-custom": "file:../typescript-config",
+    "typescript-eslint": "^8.38.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}

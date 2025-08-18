@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-custom",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^9.5.0"
+  }
+}

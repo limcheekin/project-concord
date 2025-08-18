@@ -1,0 +1,80 @@
+# Copyright (c) 2025 Lim Chee Kin
+#
+# Licensed under the Business Source License 1.1 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the LICENSE file in the root directory
+# of this source tree or from the following URL:
+#
+#     https://github.com/limcheekin/project-concord/blob/main/LICENSE
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+tables:
+  cust_mst:
+    businessName: Customer
+    description: Represents a customer entity.
+    columns:
+      c_id:
+        businessName: Customer ID
+        description: The unique identifier for a customer.
+        dataType: integer
+      c_name:
+        businessName: Customer Name
+        description: The name of the customer.
+        dataType: character varying
+  prod:
+    businessName: Product
+    description: Represents a product entity.
+    columns:
+      p_id:
+        businessName: Product ID
+        description: The unique identifier for a product.
+        dataType: integer
+      p_name:
+        businessName: Product Name
+        description: The name of the product.
+        dataType: character varying
+      price:
+        businessName: Price
+        description: The price of the product.
+        dataType: numeric
+  so_hdr:
+    businessName: Sales Orders
+    description: Represents the header of a sales order.
+    columns:
+      ord_id:
+        businessName: Order ID
+        description: The unique identifier for a sales order.
+        dataType: integer
+      ord_stat:
+        businessName: Order Status
+        description: The status of the sales order.
+        dataType: smallint
+      c_id:
+        businessName: Customer ID
+        description: The identifier for the customer who placed the order.
+        dataType: integer
+  trans:
+    businessName: Transaction
+    description: Represents a single transaction or line item within a sales order.
+    columns:
+      t_id:
+        businessName: Transaction ID
+        description: The unique identifier for a transaction.
+        dataType: integer
+      ord_id:
+        businessName: Order ID
+        description: The identifier for the sales order this transaction belongs to.
+        dataType: integer
+      p_id:
+        businessName: Product ID
+        description: The identifier for the product in this transaction.
+        dataType: integer
+      quantity:
+        businessName: Quantity
+        description: The quantity of the product in this transaction.
+        dataType: integer

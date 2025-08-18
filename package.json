@@ -1,0 +1,28 @@
+{
+  "name": "project-concord",
+  "private": true,
+  "description": "The monorepo for Project Concord.",
+  "scripts": {
+    "build": "npm run build:packages && npm run build:apps",
+    "build:packages": "turbo run build --filter=data-contract",
+    "build:apps": "turbo run build --filter=mcp-server",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "seed-test-db": "tsx apps/mcp-server/scripts/seed-test-db.ts"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "dotenv": "^17.2.1",
+    "js-yaml": "^4.1.0",
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "npm@11.5.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.2"
+  }
+}
