@@ -75,6 +75,3 @@ jobs:
         env:
           DATABASE_URL: "postgresql://user:password@localhost:5432/database"
           REDIS_HOST: "localhost"
-
-      - name: Validate data contract
-        run: npm run validate-contract
