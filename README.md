@@ -161,7 +161,6 @@ This project uses npm scripts managed by Turborepo to orchestrate common tasks. 
 -   `npm run build`: Builds all applications and packages in the monorepo.
 -   `npm run test`: Runs the complete test suite for all packages.
 -   `npm run lint`: Lints the entire codebase to check for style issues.
--   `npm run validate-contract`: Runs a script to validate the `datacontract.yml` file.
 -   `npm run seed-test-db`: Seeds the test database with initial data.
 
 ## 📂 Project Structure
