@@ -191,7 +191,7 @@ This project is under active development. The following features and enhancement
 
 ## 🙏 Acknowledgements
 
-This project is based on the [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template) by [Cyan Heads](https://cyanheads.com/) and developed using the [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD).
+This project is based on the [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template) by [Casey](https://caseyjhand.com/) and developed using the [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD).
 
 
 
