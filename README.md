@@ -1,7 +1,7 @@
 # Project Concord
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/limcheekin/project-concord/ci.yml?branch=main)](https://github.com/limcheekin/project-concord/actions/workflows/ci.yml)
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/limcheekin/project-concord)
 
 Project Concord is a headless, ambiguity-resistant **Model Context Protocol (MCP)** server that acts as a semantic mediation layer between modern AI agents and legacy database schemas. It is designed to unlock the value of core data assets by translating cryptic, legacy schemas into a clear, reliable, and AI-ready interface, mitigating significant operational risk and unblocking AI initiatives.
 
