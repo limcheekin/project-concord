@@ -1,4 +1,4 @@
-# Developer Onboarding Guide: Project Concord
+# Developer Onboarding Guide
 
 Welcome to Project Concord. This guide provides all the necessary information to set up your local development environment, understand our key processes, and start contributing.
 
