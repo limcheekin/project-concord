@@ -26,7 +26,7 @@ This project and everyone participating in it is governed by a [Code of Conduct]
 
 ### Reporting Bugs
 
-If you find a bug, please ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/YOUR_ORG/YOUR_REPO/issues). If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/YOUR_ORG/YOUR_REPO/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample or an executable test case** demonstrating the expected behavior that is not occurring.
+If you find a bug, please ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/limcheekin/project-concord/issues). If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/limcheekin/project-concord/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample or an executable test case** demonstrating the expected behavior that is not occurring.
 
 ### Suggesting Enhancements
 
@@ -36,7 +36,7 @@ If you have an idea for an enhancement, please open an issue to discuss your ide
 
 Before you start, please review the main `README.md` and the `docs/architecture.md` document to get a good understanding of the project's goals and architecture. For a more in-depth guide on the project setup and conventions, see the [Developer Onboarding Guide](./docs/developer-onboarding-guide.md).
 
-To get your development environment set up, please follow the instructions in the [Getting Started](./README.md#🚀-getting-started) section of the `README.md`.
+To get your development environment set up, please follow the instructions in the [Getting Started](./README.md#-getting-started) section of the `README.md`.
 
 ## Development Workflow
 
